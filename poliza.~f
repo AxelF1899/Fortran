@@ -1,0 +1,23 @@
+        program poliza
+        ! Este programa calcula el deducible de una poliza
+
+        implicit none
+        integer tipo,edad,bebe,lentes,enfermo,salir
+        real costom,costot,costos,costoa,costo,a,b,c,d,e,f,g,h
+        
+
+        integer jnew,jold,aux
+        write(*,*)'Tipo de Poliza 1=A y 2=B'
+        read(*,*)tipo
+        write(*,*)'La persona bebe alcohol 1= si y 0=no '
+        read(*,*)bebe
+        write(*,*)'La persona usa lentes 1=si 0=no  '
+        read(*,*)lentes
+        write(*,*)'La persona padece alguna enfermedad 1= si y 0=no '
+        read(*,*)enfermo
+        write(*,*)'Edad de la persona '
+        read(*,*)edad
+
+
+        pause
+        end program poliza
